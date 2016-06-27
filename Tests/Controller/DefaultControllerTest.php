@@ -1,6 +1,6 @@
 <?php
 
-namespace Raindrop\SyntaxHighlightBundle\Tests\Controller;
+namespace Adiog\SyntaxHighlightBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

@@ -19,10 +19,5 @@
     "autoload": {
         "psr-0": { "adiog\\syntax-highlight-bundle": "" }
     },
-    "target-dir": "adiog/syntax-highlight-bundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    }
+    "target-dir": "adiog/syntax-highlight-bundle"
 }
