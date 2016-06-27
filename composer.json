@@ -1,5 +1,5 @@
 {
-    "name": "raindrop/syntax-highlight-bundle",
+    "name": "adiog/syntax-highlight-bundle",
     "type": "symfony-bundle",
     "description": "Raindrop Symfony Syntax Highlight Bundle",
     "keywords": ["syntax", "highlight", "editor", "html"],
@@ -17,9 +17,9 @@
         "symfony/framework-bundle": ">=2.1.0"
     },
     "autoload": {
-        "psr-0": { "Raindrop\\SyntaxHighlightBundle": "" }
+        "psr-0": { "adiog\\syntax-highlight-bundle": "" }
     },
-    "target-dir": "Raindrop/SyntaxHighlightBundle",
+    "target-dir": "adiog/syntax-highlight-bundle",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
