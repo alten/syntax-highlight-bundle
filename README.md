@@ -14,7 +14,7 @@ First add the dependency to your `composer.json` file:
 
     "require": {
         ...
-        "adiog/syntax-highlight-bundle": "dev-master"
+        "alten/syntax-highlight-bundle": "dev-master"
     },
 
 Then install the bundle with the command:
@@ -31,7 +31,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Adiog\SyntaxHighlightBundle\SyntaxHighlightBundle(),
+        new Alten\SyntaxHighlightBundle\SyntaxHighlightBundle(),
     );
 }
 ```

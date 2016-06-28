@@ -1,14 +1,14 @@
 {
-    "name": "adiog/syntax-highlight-bundle",
+    "name": "alten/syntax-highlight-bundle",
     "type": "symfony-bundle",
     "description": "Symfony Syntax Highlight Bundle",
     "keywords": ["syntax", "highlight", "editor", "html"],
-    "homepage": "https://github.com/adiog/syntax-highlight-bundle",
+    "homepage": "https://github.com/alten/syntax-highlight-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "adiog",
-            "homepage": ""
+            "name": "Alten",
+            "homepage": "alten.com"
         }
     ],
     "minimum-stability": "dev",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {         
-		        "Adiog\\SyntaxHighlightBundle\\": ""
+		        "Alten\\SyntaxHighlightBundle\\": ""
       	}
     }
 }
