@@ -52,7 +52,7 @@ Add the following lines to your base twig file:
 	<script type="text/javascript">SyntaxHighlighter.all();</script>
 ```
 
-And in a WYSYWIG editor you may switch to raw mode and use a <pre class="brush: cpp"> tag:
+And in a WYSYWIG editor you may switch to raw mode and use a &lt;pre class="brush: cpp"&gt; tag:
 ``` html
 <pre class="brush: cpp">
 #include <iostream>
