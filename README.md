@@ -44,12 +44,12 @@ Now install assets:
 
 Add the following lines to your base twig file:
 ``` html
-<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shCore.js') }}"></script>
-<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shAutoloader.js') }}"></script>
-<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shBrushJScript.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shBrushCpp.js') }}"></script>
-	<link type="text/css" rel="stylesheet" href="{{ asset('bundles/adiogsyntaxhighlight/css/styles/shCoreDefault.css') }}"/>
-	<script type="text/javascript">SyntaxHighlighter.all();</script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shCore.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shAutoloader.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushJScript.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushCpp.js') }}"></script>
+<link type="text/css" rel="stylesheet" href="{{ asset('bundles/altensyntaxhighlight/css/styles/shCoreDefault.css') }}"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
 ```
 
 And in a WYSYWIG editor you may switch to raw mode and use a &lt;pre class="brush: cpp"&gt; tag:
