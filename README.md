@@ -31,7 +31,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Alten\SyntaxHighlightBundle\SyntaxHighlightBundle(),
+        new Alten\SyntaxHighlightBundle\AltenSyntaxHighlightBundle(),
     );
 }
 ```
@@ -39,3 +39,28 @@ public function registerBundles()
 Now install assets:
 
     php bin/console assets:install [--symlink]
+
+### **USAGE**
+
+Add the following lines to your base twig file:
+``` html
+<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shCore.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shAutoloader.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shBrushJScript.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shBrushCpp.js') }}"></script>
+	<link type="text/css" rel="stylesheet" href="{{ asset('bundles/adiogsyntaxhighlight/css/styles/shCoreDefault.css') }}"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+```
+
+And in a WYSYWIG editor you may switch to raw mode and use a <pre class="brush: cpp"> tag:
+``` html
+<pre class="brush: cpp">
+#include <iostream>
+
+int main() {
+	std::cout << "Hello world!" << std::endl;
+	return 0;
+}
+</pre>
+```
+
