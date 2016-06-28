@@ -1,24 +1,24 @@
 {
     "name": "adiog/syntax-highlight-bundle",
     "type": "symfony-bundle",
-    "description": "TODO Raindrop Symfony Syntax Highlight Bundle",
+    "description": "Symfony Syntax Highlight Bundle",
     "keywords": ["syntax", "highlight", "editor", "html"],
     "homepage": "https://github.com/adiog/syntax-highlight-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Raindrop Dev Team",
-            "homepage": "https://github.com/raindropdevs/RaindropSyntaxHighlightBundle/graphs/contributors"
+            "name": "adiog",
+            "homepage": ""
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": ">=2.1.0"
+        "symfony/framework-bundle": ">=3.1.0"
     },
     "autoload": {
         "psr-4": {         
-		"adiog\\syntax-highlight-bundle\\": ""
-	}
+		        "adiog\\SyntaxHighlightBundle\\": ""
+      	}
     }
 }
