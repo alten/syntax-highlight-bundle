@@ -46,8 +46,32 @@ Add the following lines to your base twig file:
 ``` html
 <script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shCore.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shAutoloader.js') }}"></script>
-<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushJScript.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushAppleScript.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushAS3.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushBash.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushColdFusion.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushCpp.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushCSharp.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushCss.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushDelphi.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushDiff.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushErlang.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushGroovy.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushJavaFX.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushJava.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushJScript.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushPerl.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushPhp.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushPlain.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushPowerShell.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushPython.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushRuby.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushSass.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushScala.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushSql.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushVb.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushXml.js') }}"></script>
+
 <link type="text/css" rel="stylesheet" href="{{ asset('bundles/altensyntaxhighlight/css/styles/shCoreDefault.css') }}"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>
 ```
