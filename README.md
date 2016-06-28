@@ -72,7 +72,8 @@ Add the following lines to your base twig file:
 <script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushVb.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/altensyntaxhighlight/js/scripts/shBrushXml.js') }}"></script>
 
-<link type="text/css" rel="stylesheet" href="{{ asset('bundles/altensyntaxhighlight/css/styles/shCoreDefault.css') }}"/>
+<link type="text/css" rel="stylesheet" href="{{ asset('bundles/altensyntaxhighlight/css/styles/shCoreMidnight.css') }}"/>
+<link type="text/css" rel="stylesheet" href="{{ asset('bundles/altensyntaxhighlight/css/styles/shThemeMidnight.css') }}"/>
 <script type="text/javascript">SyntaxHighlighter.all();</script>
 ```
 
