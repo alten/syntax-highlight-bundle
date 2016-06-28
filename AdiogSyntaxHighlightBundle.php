@@ -1,6 +1,6 @@
 <?php
 
-namespace adiog\SyntaxHighlightBundle;
+namespace Adiog\SyntaxHighlightBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
