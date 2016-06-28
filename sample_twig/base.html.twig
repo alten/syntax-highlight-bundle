@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+          <script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shCore.js') }}"></script>
+          <script type="text/javascript" src="{{ asset('bundles/adiogsyntaxhighlight/js/scripts/shBrushJScript.js') }}"></script>
+          <link type="text/css" rel="stylesheet" href="{{ asset('bundles/adiogsyntaxhighlight/css/styles/shCoreDefault.css') }}"/>
+          <script type="text/javascript">SyntaxHighlighter.all();</script>
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
